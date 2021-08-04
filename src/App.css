@@ -1,0 +1,35 @@
+.Column {
+  background-color: black;
+  height: 80px;
+}
+
+.ColumnGrid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-gap: 25px;
+  height: 400px;
+  align-content: center;
+}
+
+.ColumnWrapper {
+  width: 70%;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.ColumnText {
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 8px;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 200px;
+  padding: 10px 20px 10px 20px;
+  background-color: grey;
+}
